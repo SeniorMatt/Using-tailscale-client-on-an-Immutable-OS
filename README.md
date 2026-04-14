@@ -29,7 +29,7 @@ Fist, create a Distrobox container with root privileges and systemd support.
 Then, enter the container.
 ```sh
 distrobox create --root --name tailscale\
-    --image quay.io/toolbx-images/debian-toolbox:latest\
+    --image fedora\
     --init --additional-packages "systemd"
 
 distrobox enter --root tailscale
